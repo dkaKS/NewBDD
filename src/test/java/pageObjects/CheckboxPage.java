@@ -13,7 +13,7 @@ public class CheckboxPage extends WebConnector {
     //private String clearDefaultChkBxXpath = "//form[@id='checkboxes']//input[@type='checkbox' and @checked]";
 
 
-    /**Getter and Setter**/
+    /**Getter and Setter*******/
 
     public void clearDefaultChkBx(){
         WebElement checkboxes = driver.findElement(By.xpath("//form[@id='checkboxes']//input[@type='checkbox' and @checked]"));
