@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class CheckboxPage extends WebConnector {
 
-    /**Locators**/
+    /**LocatorsLocators**/
 
     private String chkBoxOneXpath = "//form[@id='checkboxes']//input[@type='checkbox'][1]";
     private String chkBoxTwoXpath = "//form[@id='checkboxes']//input[@type='checkbox'][2]";
